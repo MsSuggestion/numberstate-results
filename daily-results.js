@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-09.020500';
+const DATA_VERSION='2026-11-09.102500';
 
 
 
@@ -5005,6 +5005,10 @@ const DAILY_RESULTS = `
 2026-11-08|Oregon|Pick 4|4pm|0187
 2026-11-08|Oregon|Pick 4|7pm|1408
 2026-11-08|Oregon|Pick 4|10pm|9535
+2026-11-09|Tennessee|Pick 3|Morning|890
+2026-11-09|Tennessee|Pick 4|Morning|1195
+2026-11-09|Texas|Pick 3|Morning|694
+2026-11-09|Texas|Pick 4|Morning|9064
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
