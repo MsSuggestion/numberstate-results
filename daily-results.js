@@ -5262,7 +5262,7 @@ const DAILY_RESULTS = `
 2026-11-10|Mississippi|Pick 3|Evening|212
 2026-11-10|Missouri|Pick 3|Evening|230
 2026-11-10|Nebraska|Pick 3|Evening|063
-2026-11-10|New Jersey|Pick 3|Evening|222
+2026-11-10|New Jersey|Pick 3|Evening|139
 2026-11-10|New Mexico|Pick 3|Evening|037
 2026-11-10|New York|Pick 3|Evening|716
 2026-11-10|North Carolina|Pick 3|Evening|173
