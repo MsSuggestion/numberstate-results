@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-13.152800';
+const DATA_VERSION='2026-11-13.183200';
 
 
 
@@ -5735,6 +5735,25 @@ const DAILY_RESULTS = `
 2026-11-13|Texas|Pick 3|Day|558
 2026-11-13|Texas|Pick 4|Day|0970
 2026-11-13|Oregon|Pick 4|1pm|9631
+2026-11-13|Georgia|Pick 5|Midday|09476
+2026-11-13|Ohio|Pick 5|Midday|46148
+2026-11-13|Pennsylvania|Pick 5|Midday|13707
+2026-11-13|Georgia|Pick 3|Evening|689
+2026-11-13|Georgia|Pick 4|Evening|3597
+2026-11-13|Georgia|Pick 5|Evening|08890
+2026-11-13|Pennsylvania|Pick 3|Evening|179
+2026-11-13|Pennsylvania|Pick 4|Evening|5816
+2026-11-13|Pennsylvania|Pick 5|Evening|15621
+2026-11-13|Rhode Island|Pick 4|Evening|7474
+2026-11-13|South Carolina|Pick 3|Evening|014
+2026-11-13|South Carolina|Pick 4|Evening|0863
+2026-11-13|Texas|Pick 3|Evening|753
+2026-11-13|Texas|Pick 4|Evening|5378
+2026-11-13|Tri State|Pick 3|Evening|847
+2026-11-13|Tri State|Pick 4|Evening|6443
+2026-11-13|West Virginia|Pick 3|Evening|987
+2026-11-13|West Virginia|Pick 4|Evening|5600
+2026-11-13|Oregon|Pick 4|4pm|4665
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
