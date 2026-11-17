@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-16.202000';
+const DATA_VERSION='2026-11-17.024000';
 
 
 
@@ -6243,6 +6243,66 @@ const DAILY_RESULTS = `
 2026-11-16|Washington, D.C.|Pick 4|Evening|5765
 2026-11-16|West Virginia|Pick 4|Evening|3463
 2026-11-16|Oregon|Pick 4|4pm|0552
+2026-11-16|Arizona|Pick 3|Evening|070
+2026-11-16|California|Pick 3|Evening|390
+2026-11-16|Colorado|Pick 3|Evening|632
+2026-11-16|Connecticut|Pick 3|Evening|521
+2026-11-16|Florida|Pick 3|Evening|199
+2026-11-16|Idaho|Pick 3|Evening|874
+2026-11-16|Illinois|Pick 3|Evening|790
+2026-11-16|Indiana|Pick 3|Evening|203
+2026-11-16|Iowa|Pick 3|Evening|424
+2026-11-16|Kansas|Pick 3|Evening|231
+2026-11-16|Kentucky|Pick 3|Evening|143
+2026-11-16|Louisiana|Pick 3|Evening|663
+2026-11-16|Mississippi|Pick 3|Evening|499
+2026-11-16|Missouri|Pick 3|Evening|933
+2026-11-16|Nebraska|Pick 3|Evening|236
+2026-11-16|New Jersey|Pick 3|Evening|788
+2026-11-16|New Mexico|Pick 3|Evening|643
+2026-11-16|New York|Pick 3|Evening|427
+2026-11-16|North Carolina|Pick 3|Evening|283
+2026-11-16|Oklahoma|Pick 3|Evening|647
+2026-11-16|Ontario|Pick 3|Evening|497
+2026-11-16|Québec|Pick 3|Evening|191
+2026-11-16|Virginia|Pick 3|Evening|492
+2026-11-16|Washington|Pick 3|Evening|004
+2026-11-16|Western Canada|Pick 3|Evening|668
+2026-11-16|Wisconsin|Pick 3|Evening|230
+2026-11-16|Arizona|Pick 4|Evening|1445
+2026-11-16|Atlantic Canada|Pick 4|Evening|6716
+2026-11-16|California|Pick 4|Evening|6188
+2026-11-16|Connecticut|Pick 4|Evening|6568
+2026-11-16|Florida|Pick 4|Evening|0955
+2026-11-16|Idaho|Pick 4|Evening|5882
+2026-11-16|Illinois|Pick 4|Evening|1472
+2026-11-16|Indiana|Pick 4|Evening|8811
+2026-11-16|Iowa|Pick 4|Evening|6406
+2026-11-16|Kentucky|Pick 4|Evening|2264
+2026-11-16|Louisiana|Pick 4|Evening|2440
+2026-11-16|Mississippi|Pick 4|Evening|2891
+2026-11-16|Missouri|Pick 4|Evening|7522
+2026-11-16|Nebraska|Pick 4|Evening|4860
+2026-11-16|New Jersey|Pick 4|Evening|6142
+2026-11-16|New Mexico|Pick 4|Evening|9208
+2026-11-16|New York|Pick 4|Evening|2121
+2026-11-16|North Carolina|Pick 4|Evening|6169
+2026-11-16|Ontario|Pick 4|Evening|9073
+2026-11-16|Québec|Pick 4|Evening|1155
+2026-11-16|Virginia|Pick 4|Evening|5868
+2026-11-16|Western Canada|Pick 4|Evening|8657
+2026-11-16|Wisconsin|Pick 4|Evening|3108
+2026-11-16|Georgia|Pick 5|Evening|19703
+2026-11-16|Ohio|Pick 5|Evening|69514
+2026-11-16|Pennsylvania|Pick 5|Evening|29436
+2026-11-16|Georgia|Pick 3|Night|026
+2026-11-16|Georgia|Pick 4|Night|4041
+2026-11-16|Texas|Pick 3|Night|062
+2026-11-16|Texas|Pick 4|Night|4848
+2026-11-16|Washington, D.C.|Pick 3|Night|407
+2026-11-16|Washington, D.C.|Pick 4|Night|8113
+2026-11-16|Oregon|Pick 4|7pm|8692
+2026-11-16|Oregon|Pick 4|10pm|7006
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
