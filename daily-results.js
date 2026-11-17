@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-16.154000';
+const DATA_VERSION='2026-11-16.202000';
 
 
 
@@ -6211,6 +6211,38 @@ const DAILY_RESULTS = `
 2026-11-16|Texas|Pick 3|Day|911
 2026-11-16|Texas|Pick 4|Day|7427
 2026-11-16|Oregon|Pick 4|1pm|2872
+2026-11-16|Arkansas|Pick 3|Evening|557
+2026-11-16|Delaware|Pick 3|Evening|827
+2026-11-16|Georgia|Pick 3|Evening|862
+2026-11-16|Maryland|Pick 3|Evening|519
+2026-11-16|Michigan|Pick 3|Evening|407
+2026-11-16|Minnesota|Pick 3|Evening|967
+2026-11-16|Ohio|Pick 3|Evening|692
+2026-11-16|Pennsylvania|Pick 3|Evening|629
+2026-11-16|Puerto Rico|Pick 3|Evening|441
+2026-11-16|South Carolina|Pick 3|Evening|572
+2026-11-16|Tennessee|Pick 3|Evening|259
+2026-11-16|Texas|Pick 3|Evening|159
+2026-11-16|Tri State|Pick 3|Evening|956
+2026-11-16|Washington, D.C.|Pick 3|Evening|756
+2026-11-16|West Virginia|Pick 3|Evening|042
+2026-11-16|Arkansas|Pick 4|Evening|4682
+2026-11-16|Delaware|Pick 4|Evening|5813
+2026-11-16|Georgia|Pick 4|Evening|5131
+2026-11-16|Maryland|Pick 4|Evening|5760
+2026-11-16|Massachusetts|Pick 4|Evening|3280
+2026-11-16|Michigan|Pick 4|Evening|7747
+2026-11-16|Ohio|Pick 4|Evening|1261
+2026-11-16|Pennsylvania|Pick 4|Evening|5757
+2026-11-16|Puerto Rico|Pick 4|Evening|1998
+2026-11-16|Rhode Island|Pick 4|Evening|6947
+2026-11-16|South Carolina|Pick 4|Evening|5646
+2026-11-16|Tennessee|Pick 4|Evening|4001
+2026-11-16|Texas|Pick 4|Evening|6137
+2026-11-16|Tri State|Pick 4|Evening|9412
+2026-11-16|Washington, D.C.|Pick 4|Evening|5765
+2026-11-16|West Virginia|Pick 4|Evening|3463
+2026-11-16|Oregon|Pick 4|4pm|0552
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
