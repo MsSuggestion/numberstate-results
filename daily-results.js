@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-19.103000';
+const DATA_VERSION='2026-11-19.151500';
 
 
 
@@ -6637,6 +6637,71 @@ const DAILY_RESULTS = `
 2026-11-19|Tennessee|Pick 4|Morning|6638
 2026-11-19|Texas|Pick 3|Morning|241
 2026-11-19|Texas|Pick 4|Morning|1114
+2026-11-19|Arizona|Pick 3|Midday|014
+2026-11-19|Arizona|Pick 4|Midday|2464
+2026-11-19|Arkansas|Pick 3|Midday|717
+2026-11-19|Arkansas|Pick 4|Midday|1199
+2026-11-19|California|Pick 3|Midday|534
+2026-11-19|Colorado|Pick 3|Midday|972
+2026-11-19|Connecticut|Pick 3|Midday|879
+2026-11-19|Connecticut|Pick 4|Midday|5444
+2026-11-19|Delaware|Pick 3|Midday|560
+2026-11-19|Delaware|Pick 4|Midday|8963
+2026-11-19|Florida|Pick 3|Midday|979
+2026-11-19|Florida|Pick 4|Midday|5052
+2026-11-19|Georgia|Pick 3|Midday|815
+2026-11-19|Georgia|Pick 4|Midday|4749
+2026-11-19|Georgia|Pick 5|Midday|53465
+2026-11-19|Idaho|Pick 3|Midday|397
+2026-11-19|Idaho|Pick 4|Midday|5616
+2026-11-19|Illinois|Pick 3|Midday|593
+2026-11-19|Illinois|Pick 4|Midday|1658
+2026-11-19|Indiana|Pick 3|Midday|673
+2026-11-19|Indiana|Pick 4|Midday|1851
+2026-11-19|Iowa|Pick 3|Midday|429
+2026-11-19|Iowa|Pick 4|Midday|5829
+2026-11-19|Kansas|Pick 3|Midday|567
+2026-11-19|Kentucky|Pick 3|Midday|260
+2026-11-19|Kentucky|Pick 4|Midday|8101
+2026-11-19|Maryland|Pick 3|Midday|390
+2026-11-19|Maryland|Pick 4|Midday|3150
+2026-11-19|Massachusetts|Pick 4|Midday|4479
+2026-11-19|Michigan|Pick 3|Midday|879
+2026-11-19|Michigan|Pick 4|Midday|4211
+2026-11-19|Mississippi|Pick 3|Midday|282
+2026-11-19|Mississippi|Pick 4|Midday|6038
+2026-11-19|Missouri|Pick 3|Midday|641
+2026-11-19|Missouri|Pick 4|Midday|9750
+2026-11-19|New Jersey|Pick 3|Midday|247
+2026-11-19|New Jersey|Pick 4|Midday|5027
+2026-11-19|New Mexico|Pick 3|Midday|419
+2026-11-19|New Mexico|Pick 4|Midday|0863
+2026-11-19|New York|Pick 3|Midday|671
+2026-11-19|New York|Pick 4|Midday|5444
+2026-11-19|North Carolina|Pick 3|Midday|556
+2026-11-19|North Carolina|Pick 4|Midday|1012
+2026-11-19|Ohio|Pick 3|Midday|514
+2026-11-19|Ohio|Pick 4|Midday|8639
+2026-11-19|Ohio|Pick 5|Midday|21247
+2026-11-19|Pennsylvania|Pick 3|Midday|994
+2026-11-19|Pennsylvania|Pick 4|Midday|6182
+2026-11-19|Pennsylvania|Pick 5|Midday|90845
+2026-11-19|Rhode Island|Pick 4|Midday|8272
+2026-11-19|South Carolina|Pick 3|Midday|538
+2026-11-19|South Carolina|Pick 4|Midday|6548
+2026-11-19|Tennessee|Pick 3|Midday|622
+2026-11-19|Tennessee|Pick 4|Midday|6899
+2026-11-19|Tri State|Pick 3|Midday|333
+2026-11-19|Tri State|Pick 4|Midday|4246
+2026-11-19|Virginia|Pick 3|Midday|252
+2026-11-19|Virginia|Pick 4|Midday|7641
+2026-11-19|Washington, D.C.|Pick 3|Midday|202
+2026-11-19|Washington, D.C.|Pick 4|Midday|7169
+2026-11-19|Wisconsin|Pick 3|Midday|113
+2026-11-19|Wisconsin|Pick 4|Midday|5622
+2026-11-19|Texas|Pick 3|Day|226
+2026-11-19|Texas|Pick 4|Day|3557
+2026-11-19|Oregon|Pick 4|1pm|1335
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
