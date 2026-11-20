@@ -1,0 +1,21 @@
+name: Today's pairs
+on:
+  push:
+    branches: [main]
+    paths: ['daily-results.js']
+  schedule:
+    - cron: '35 11 * * *'   # 5:35 AM Central (CST) / 6:35 AM (CDT), after the night results are in
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  pairs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 tools/make-today-pairs.py
+      - run: |
+          git config user.name "NumberState bot"
+          git config user.email "numberstateinfo@gmail.com"
+          git add today-pairs.js
+          git diff --cached --quiet || (git commit -m "Today's pairs" && git push)
