@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-26.221500';
+const DATA_VERSION='2026-11-27.071500';
 
 
 
@@ -7835,6 +7835,98 @@ const DAILY_RESULTS = `
 2026-11-26|Texas|Pick 3|Day|988
 2026-11-26|Texas|Pick 4|Day|2661
 2026-11-26|Oregon|Pick 4|1pm|3976
+2026-11-26|Arizona|Pick 3|Evening|668
+2026-11-26|Arizona|Pick 4|Evening|7761
+2026-11-26|Arkansas|Pick 3|Evening|010
+2026-11-26|Arkansas|Pick 4|Evening|4104
+2026-11-26|Atlantic Canada|Pick 4|Evening|8171
+2026-11-26|California|Pick 3|Evening|729
+2026-11-26|California|Pick 4|Evening|8729
+2026-11-26|Colorado|Pick 3|Evening|949
+2026-11-26|Connecticut|Pick 3|Evening|373
+2026-11-26|Connecticut|Pick 4|Evening|5336
+2026-11-26|Delaware|Pick 3|Evening|086
+2026-11-26|Delaware|Pick 4|Evening|8093
+2026-11-26|Florida|Pick 3|Evening|819
+2026-11-26|Florida|Pick 4|Evening|3836
+2026-11-26|Idaho|Pick 3|Evening|594
+2026-11-26|Idaho|Pick 4|Evening|4601
+2026-11-26|Illinois|Pick 3|Evening|765
+2026-11-26|Illinois|Pick 4|Evening|5070
+2026-11-26|Indiana|Pick 3|Evening|716
+2026-11-26|Indiana|Pick 4|Evening|5471
+2026-11-26|Iowa|Pick 3|Evening|577
+2026-11-26|Iowa|Pick 4|Evening|1135
+2026-11-26|Kansas|Pick 3|Evening|265
+2026-11-26|Kentucky|Pick 3|Evening|011
+2026-11-26|Kentucky|Pick 4|Evening|8127
+2026-11-26|Louisiana|Pick 3|Evening|358
+2026-11-26|Louisiana|Pick 4|Evening|0173
+2026-11-26|Maryland|Pick 3|Evening|508
+2026-11-26|Maryland|Pick 4|Evening|5415
+2026-11-26|Massachusetts|Pick 4|Evening|1504
+2026-11-26|Michigan|Pick 3|Evening|170
+2026-11-26|Michigan|Pick 4|Evening|9132
+2026-11-26|Minnesota|Pick 3|Evening|404
+2026-11-26|Mississippi|Pick 3|Evening|209
+2026-11-26|Mississippi|Pick 4|Evening|0254
+2026-11-26|Missouri|Pick 3|Evening|550
+2026-11-26|Missouri|Pick 4|Evening|9640
+2026-11-26|Nebraska|Pick 3|Evening|252
+2026-11-26|Nebraska|Pick 4|Evening|9933
+2026-11-26|New Jersey|Pick 3|Evening|084
+2026-11-26|New Jersey|Pick 4|Evening|7974
+2026-11-26|New Mexico|Pick 3|Evening|902
+2026-11-26|New Mexico|Pick 4|Evening|5677
+2026-11-26|New York|Pick 3|Evening|667
+2026-11-26|New York|Pick 4|Evening|3636
+2026-11-26|North Carolina|Pick 3|Evening|967
+2026-11-26|North Carolina|Pick 4|Evening|4110
+2026-11-26|Ohio|Pick 3|Evening|439
+2026-11-26|Ohio|Pick 4|Evening|6730
+2026-11-26|Ohio|Pick 5|Evening|84474
+2026-11-26|Oklahoma|Pick 3|Evening|102
+2026-11-26|Ontario|Pick 3|Evening|206
+2026-11-26|Ontario|Pick 4|Evening|9299
+2026-11-26|Pennsylvania|Pick 3|Evening|294
+2026-11-26|Pennsylvania|Pick 4|Evening|9166
+2026-11-26|Pennsylvania|Pick 5|Evening|94538
+2026-11-26|Québec|Pick 3|Evening|128
+2026-11-26|Québec|Pick 4|Evening|4028
+2026-11-26|Rhode Island|Pick 4|Evening|7453
+2026-11-26|South Carolina|Pick 3|Evening|138
+2026-11-26|South Carolina|Pick 4|Evening|8455
+2026-11-26|Tennessee|Pick 3|Evening|240
+2026-11-26|Tennessee|Pick 4|Evening|9121
+2026-11-26|Tri State|Pick 3|Evening|708
+2026-11-26|Tri State|Pick 4|Evening|9675
+2026-11-26|Virginia|Pick 3|Evening|363
+2026-11-26|Virginia|Pick 4|Evening|1636
+2026-11-26|Washington|Pick 3|Evening|829
+2026-11-26|West Virginia|Pick 3|Evening|096
+2026-11-26|West Virginia|Pick 4|Evening|3848
+2026-11-26|Western Canada|Pick 3|Evening|927
+2026-11-26|Western Canada|Pick 4|Evening|7437
+2026-11-26|Wisconsin|Pick 3|Evening|534
+2026-11-26|Wisconsin|Pick 4|Evening|1966
+2026-11-26|Georgia|Pick 3|Evening|430
+2026-11-26|Georgia|Pick 4|Evening|9550
+2026-11-26|Georgia|Pick 5|Evening|71405
+2026-11-26|Washington, D.C.|Pick 3|Evening|017
+2026-11-26|Washington, D.C.|Pick 4|Evening|0608
+2026-11-26|Georgia|Pick 3|Night|852
+2026-11-26|Georgia|Pick 4|Night|8092
+2026-11-26|Washington, D.C.|Pick 3|Night|013
+2026-11-26|Washington, D.C.|Pick 4|Night|6356
+2026-11-26|Texas|Pick 3|Evening|168
+2026-11-26|Texas|Pick 4|Evening|4984
+2026-11-26|Texas|Pick 3|Night|035
+2026-11-26|Texas|Pick 4|Night|5628
+2026-11-26|Oregon|Pick 4|4pm|1718
+2026-11-26|Oregon|Pick 4|7pm|1456
+2026-11-26|Oregon|Pick 4|10pm|1691
+2026-11-26|New York|Pick 3|Midday|611
+2026-11-26|New York|Pick 4|Midday|7586
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
