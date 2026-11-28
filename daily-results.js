@@ -1,6 +1,6 @@
 
 
-const DATA_VERSION='2026-11-27.152500';
+const DATA_VERSION='2026-11-27.235900';
 
 
 
@@ -7998,6 +7998,96 @@ const DAILY_RESULTS = `
 2026-11-27|Texas|Pick 3|Day|058
 2026-11-27|Texas|Pick 4|Day|5775
 2026-11-27|Oregon|Pick 4|1pm|3511
+2026-11-27|Arizona|Pick 3|Evening|220
+2026-11-27|Arizona|Pick 4|Evening|6511
+2026-11-27|Arkansas|Pick 3|Evening|472
+2026-11-27|Arkansas|Pick 4|Evening|5863
+2026-11-27|Atlantic Canada|Pick 4|Evening|3680
+2026-11-27|California|Pick 3|Evening|435
+2026-11-27|California|Pick 4|Evening|2718
+2026-11-27|Colorado|Pick 3|Evening|090
+2026-11-27|Connecticut|Pick 3|Evening|178
+2026-11-27|Connecticut|Pick 4|Evening|8151
+2026-11-27|Delaware|Pick 3|Evening|532
+2026-11-27|Delaware|Pick 4|Evening|6869
+2026-11-27|Florida|Pick 3|Evening|439
+2026-11-27|Florida|Pick 4|Evening|9408
+2026-11-27|Georgia|Pick 3|Evening|254
+2026-11-27|Georgia|Pick 4|Evening|1866
+2026-11-27|Georgia|Pick 5|Evening|40803
+2026-11-27|Idaho|Pick 3|Evening|586
+2026-11-27|Idaho|Pick 4|Evening|6524
+2026-11-27|Illinois|Pick 3|Evening|049
+2026-11-27|Illinois|Pick 4|Evening|7408
+2026-11-27|Indiana|Pick 3|Evening|070
+2026-11-27|Indiana|Pick 4|Evening|1299
+2026-11-27|Iowa|Pick 3|Evening|393
+2026-11-27|Iowa|Pick 4|Evening|1803
+2026-11-27|Kansas|Pick 3|Evening|500
+2026-11-27|Kentucky|Pick 3|Evening|198
+2026-11-27|Kentucky|Pick 4|Evening|4849
+2026-11-27|Louisiana|Pick 3|Evening|809
+2026-11-27|Louisiana|Pick 4|Evening|3131
+2026-11-27|Maryland|Pick 3|Evening|035
+2026-11-27|Maryland|Pick 4|Evening|3179
+2026-11-27|Massachusetts|Pick 4|Evening|8683
+2026-11-27|Michigan|Pick 3|Evening|368
+2026-11-27|Michigan|Pick 4|Evening|8014
+2026-11-27|Minnesota|Pick 3|Evening|967
+2026-11-27|Mississippi|Pick 3|Evening|427
+2026-11-27|Mississippi|Pick 4|Evening|4188
+2026-11-27|Missouri|Pick 3|Evening|184
+2026-11-27|Missouri|Pick 4|Evening|3920
+2026-11-27|Nebraska|Pick 3|Evening|688
+2026-11-27|Nebraska|Pick 4|Evening|7864
+2026-11-27|New Jersey|Pick 3|Evening|989
+2026-11-27|New Jersey|Pick 4|Evening|0359
+2026-11-27|New Mexico|Pick 3|Evening|481
+2026-11-27|New Mexico|Pick 4|Evening|5260
+2026-11-27|New York|Pick 3|Evening|196
+2026-11-27|New York|Pick 4|Evening|8137
+2026-11-27|North Carolina|Pick 3|Evening|180
+2026-11-27|North Carolina|Pick 4|Evening|6465
+2026-11-27|Ohio|Pick 3|Evening|590
+2026-11-27|Ohio|Pick 4|Evening|3035
+2026-11-27|Ohio|Pick 5|Evening|48972
+2026-11-27|Oklahoma|Pick 3|Evening|780
+2026-11-27|Ontario|Pick 3|Evening|594
+2026-11-27|Ontario|Pick 4|Evening|4899
+2026-11-27|Pennsylvania|Pick 3|Evening|843
+2026-11-27|Pennsylvania|Pick 4|Evening|9052
+2026-11-27|Pennsylvania|Pick 5|Evening|34147
+2026-11-27|Québec|Pick 3|Evening|194
+2026-11-27|Québec|Pick 4|Evening|7188
+2026-11-27|Rhode Island|Pick 4|Evening|7276
+2026-11-27|South Carolina|Pick 3|Evening|092
+2026-11-27|South Carolina|Pick 4|Evening|0527
+2026-11-27|Tennessee|Pick 3|Evening|741
+2026-11-27|Tennessee|Pick 4|Evening|2717
+2026-11-27|Tri State|Pick 3|Evening|708
+2026-11-27|Tri State|Pick 4|Evening|0301
+2026-11-27|Virginia|Pick 3|Evening|959
+2026-11-27|Virginia|Pick 4|Evening|3939
+2026-11-27|Washington|Pick 3|Evening|856
+2026-11-27|Washington, D.C.|Pick 3|Evening|335
+2026-11-27|Washington, D.C.|Pick 4|Evening|2373
+2026-11-27|West Virginia|Pick 3|Evening|888
+2026-11-27|West Virginia|Pick 4|Evening|2887
+2026-11-27|Western Canada|Pick 3|Evening|960
+2026-11-27|Western Canada|Pick 4|Evening|8719
+2026-11-27|Wisconsin|Pick 3|Evening|113
+2026-11-27|Wisconsin|Pick 4|Evening|4866
+2026-11-27|Texas|Pick 3|Evening|993
+2026-11-27|Texas|Pick 4|Evening|6575
+2026-11-27|Georgia|Pick 3|Night|931
+2026-11-27|Georgia|Pick 4|Night|9907
+2026-11-27|Washington, D.C.|Pick 3|Night|248
+2026-11-27|Washington, D.C.|Pick 4|Night|0174
+2026-11-27|Texas|Pick 3|Night|234
+2026-11-27|Texas|Pick 4|Night|2025
+2026-11-27|Oregon|Pick 4|4pm|9175
+2026-11-27|Oregon|Pick 4|7pm|2796
+2026-11-27|Oregon|Pick 4|10pm|1442
 `.trim().split('\n').map(line=>{
   const [date,state,game,draw,number]=line.split('|');
   return {date,state,game,draw,number,source:'User-supplied results board'};
